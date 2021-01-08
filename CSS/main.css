@@ -251,3 +251,33 @@ hr#ParaHeader {
     width: 30rem;
     margin-right: 0px;
 }
+
+#ContactsHeader {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    max-width: 75%;
+    box-shadow: 5px 5px 10px var(--shadow-color);
+    font-size: 125%;
+    font-family: PressStart2P;
+    border-radius: 1rem;
+}
+
+#ContactsText {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100%;
+    font-family: pressStart2P;
+    max-width: 20%;
+}
+
+#heythere {
+    display: block;
+    margin: 2rem auto 0rem auto;
+}
+
+#ContactsButtons {
+    display: block;
+    margin: 2rem auto 0rem auto;
+}
