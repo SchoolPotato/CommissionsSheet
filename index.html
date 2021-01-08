@@ -9,14 +9,18 @@
 </head>
 <body>
     <div class="header">
-        <img src="Images/Logo1.png" id="Logo1">
+        <img src="Images/Logo1.png" id="Logo1" usemap="#home-button">
         <img src="Images/CommissionSheetTopBarLight.png" id="Lightswitch">
         <img src="Images/Buttons.png" id="Buttons" usemap="#buttons-map">
 
+        <map name="home-button">
+            <area shape="rect" coords="0,0,404,80" href="index.html">
+        </map>
+
         <map name="buttons-map">
-            <area shape="rect" coords="9,21,240,60" href="Gallery.html">
-            <area shape="rect" coords="265,21,496,60" href="Info.html">
-            <area shape="rect" coords="521,21,752,60" href="Contact.html">
+            <area shape="rect" coords="9,21,240,60" href="gallery.html">
+            <area shape="rect" coords="265,21,496,60" href="info.html">
+            <area shape="rect" coords="521,21,752,60" href="contact.html">
         </map><br>
         <hr id = "HR1">
     </div>
@@ -32,8 +36,30 @@
             Also, keep in mind that all prices are subject to change depending on what is requested.</h3>
     </div>
     <div class="SheetText">
-        
+        <fieldset id="CommissionsInfo1">
+            <legend id="CommissionsHeader1">$4.99-$14.99 - Single Sprite</legend>
+            <p id="CommissionsText1">One sprite, with no animation. Depending on the style of the sprite, this may take a while. + $4.99 for each extra sprite. More information on request.</p>
+        </fieldset>
+
+        <fieldset id="CommissionsInfo2">
+            <legend id="CommissionsHeader2">$9.99-$29.99 - Animated Sprite</legend>
+            <p id="CommissionsText2">One sprite, with no animation. Depending on the style of the sprite, this may take a while. + $4.99 for each extra sprite. More information on request.</p>
+        </fieldset>
+
+        <fieldset id="CommissionsInfo3">
+            <legend id="CommissionsHeader3">Commission Slots</legend>
+            <p id="CommissionsText3"><span id="CommissionSlot1">Open</span><br> <hr> <br><span id="CommissionSlot2">Open</span></p>
+        </fieldset>
     </div>
+    <hr>
+
+    <img src="Image/SocialMediaLinks" id="links" usemap="#links-map">
+
+    <map>
+        <area shape="rect" coords="" href="twitter.html">
+        <area shape="rect" coords="" href="reddit.html">
+        <area shape="rect" coords="" href="discord.html">
+    </map>
 
     <script src="JS/main.js"></script>
 </body>
