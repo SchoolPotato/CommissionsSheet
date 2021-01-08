@@ -16,7 +16,7 @@ body {
 #HR1 {
     box-shadow: 0px 1px 5px -0.5px var(--shadow-color);;
     margin: 0rem;
-    padding: 0rem;
+    padding: 0.01rem;
     background-color: black;
 }
 
@@ -39,6 +39,7 @@ body {
     padding: 0rem;
     background-color: white;
     position: fixed;
+    z-index: 20;
 }
 
 #Buttons {
@@ -50,8 +51,10 @@ body {
     max-width: 25rem;
     height: auto;
     box-shadow: 5px 5px 10px var(--shadow-color);;
-    margin-left: 12rem;
-    margin-top: 10rem;
+    position: relative;
+    left: 12rem;
+    top: 10rem;
+    z-index: -1;
 }
 
 #Example2 {
@@ -59,16 +62,19 @@ body {
     max-width: 25rem;
     height: auto;
     box-shadow: 5px 5px 10px var(--shadow-color);;
-    margin-left: 12rem;
-    margin-top: 7rem;
+    position: relative;
+    left: 12rem;
+    top: 13rem;
+    z-index: -1;
 }
 
 #BackgroundDoodle {
-    max-width: 30rem;
+    max-width: 40rem;
     height: auto;
     box-shadow: 5px 5px 10px var(--shadow-color);;
-    margin-right: 30rem;
-    margin-top: 15.5rem;
+    position: relative;
+    right: 30rem;
+    top: 17.5rem;
     float: right;
 }
 
@@ -84,4 +90,8 @@ body {
     font-family: pressStart2P;
     font-weight: normal;
     z-index: 10;
+    font-size: 16px;
+    background-color: white;
+    position: relative;
+    top: 15rem;
 }
