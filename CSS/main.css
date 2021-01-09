@@ -7,6 +7,11 @@
     src: url(fonts/AJsFont.ttf);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 :root {
     --shadow-color: rgba(0, 0, 0, 0.3);
 }
@@ -22,6 +27,8 @@ body {
     margin: 0rem;
     padding: 0.01rem;
     background-color: black;
+    z-index: -20;
+    width: 200%;
 }
 
 #Logo1 {
@@ -280,4 +287,14 @@ hr#ParaHeader {
 #ContactsButtons {
     display: block;
     margin: 2rem auto 0rem auto;
+}
+
+#slogan {
+    font-family: PressStart2P; 
+    margin: 0rem; 
+    font-size: 75%; 
+    z-index: 20; 
+    position: relative; 
+    left: 1rem;
+    visibility: hidden;
 }
